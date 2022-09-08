@@ -4,7 +4,8 @@ using UnityEngine;
 public class SpriteColorBehavior : MonoBehaviour
 {
     private SpriteRenderer rendererObj;
-    void Start()
+    
+    void Awake()
     {
         rendererObj = GetComponent<SpriteRenderer>();
     }

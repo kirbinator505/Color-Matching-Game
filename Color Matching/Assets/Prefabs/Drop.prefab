@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1297871169477763360
+--- !u!1 &2933885966280749614
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,44 +8,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1297871169477763355}
-  - component: {fileID: 1297871169477763356}
-  - component: {fileID: 1297871169477763357}
-  - component: {fileID: 1297871169477763358}
-  - component: {fileID: 1297871169477763354}
-  - component: {fileID: 1297871169477763353}
-  - component: {fileID: 1297871169477763352}
-  - component: {fileID: 1297871169477763351}
-  - component: {fileID: 1297871169477763350}
-  m_Layer: 0
+  - component: {fileID: 2933885966280749611}
+  - component: {fileID: 2933885966280749610}
+  - component: {fileID: 2933885966280749613}
+  - component: {fileID: 2933885966280749612}
+  - component: {fileID: 2933885966280749609}
+  - component: {fileID: -9604728166854039}
+  - component: {fileID: -4857709162410802662}
+  - component: {fileID: -8171607952767115800}
+  m_Layer: 6
   m_Name: Drop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1297871169477763355
+--- !u!4 &2933885966280749611
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297871169477763360}
+  m_GameObject: {fileID: 2933885966280749614}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4.85, y: 1.67, z: 0}
   m_LocalScale: {x: 0.11, y: 0.11, z: 0.11}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1297871169477763356
+--- !u!212 &2933885966280749610
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297871169477763360}
+  m_GameObject: {fileID: 2933885966280749614}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -91,149 +90,134 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!65 &1297871169477763357
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297871169477763360}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 7.25, y: 7.25, z: 0.2}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1297871169477763358
+--- !u!54 &2933885966280749613
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297871169477763360}
+  m_GameObject: {fileID: 2933885966280749614}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 3
   m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1297871169477763354
-MonoBehaviour:
+--- !u!65 &2933885966280749612
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297871169477763360}
+  m_GameObject: {fileID: 2933885966280749614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e6f02b1c1bff86d4ba668f75b9888934, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  idObj: {fileID: 11400000, guid: 249eb4f50263f5042b0e0503b941367b, type: 2}
-  startEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1297871169477763353}
-        m_TargetAssemblyTypeName: SpriteColorBehavior, Assembly-CSharp
-        m_MethodName: ChangeRendererColor
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 249eb4f50263f5042b0e0503b941367b, type: 2}
-          m_ObjectArgumentAssemblyTypeName: ColorID, Assembly-CSharp
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1297871169477763353
+  serializedVersion: 2
+  m_Size: {x: 9.25, y: 9.25, z: 0.2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2933885966280749609
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297871169477763360}
+  m_GameObject: {fileID: 2933885966280749614}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 99791b46a3ee19149b259581f5519e8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1297871169477763352
+--- !u!114 &-9604728166854039
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297871169477763360}
+  m_GameObject: {fileID: 2933885966280749614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 73118019bb546344886d6afb3b056499, type: 3}
+  m_Script: {fileID: 11500000, guid: 93c7532c9bee4f447b1d5ee593950650, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dragable: 0
-  pos: {x: 0, y: 0, z: 0}
-  offset: {x: 0, y: 0, z: 0}
-  startDragEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1297871169477763351}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Up
-          m_BoolArgument: 0
-        m_CallState: 2
-  endDragEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1297871169477763351}
-        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Idle
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!95 &1297871169477763351
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297871169477763360}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0689eaf02907cdd4f8deaabb08f5a078, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1297871169477763350
+  delay: 4
+--- !u!114 &-4857709162410802662
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1297871169477763360}
+  m_GameObject: {fileID: 2933885966280749614}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d86a3de2db061b54082808af0ad943c8, type: 3}
+  m_Script: {fileID: 11500000, guid: 615ce02b54d4daf47b61a8b98816b60a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2933885966280749609}
+        m_TargetAssemblyTypeName: SpriteColorBehavior, Assembly-CSharp
+        m_MethodName: ChangeRendererColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 11400000, guid: c41a458f9bbb49c4baad9454e2a33560, type: 2}
+          m_ObjectArgumentAssemblyTypeName: ColorIDList, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  awakeEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: c41a458f9bbb49c4baad9454e2a33560, type: 2}
+        m_TargetAssemblyTypeName: ColorIDList, Assembly-CSharp
+        m_MethodName: RandomColorSet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  disableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  enableEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  destroyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &-8171607952767115800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2933885966280749614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4204742263f6414ea34edfd13124a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idObj: {fileID: 0}
+  matchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  noMatchEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  noMatchDelayedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  list: {fileID: 11400000, guid: c41a458f9bbb49c4baad9454e2a33560, type: 2}

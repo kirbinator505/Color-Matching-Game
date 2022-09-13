@@ -10,10 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3ad6365c8867e444ba15df69a5b4909, type: 3}
-  m_Name: Vector3List
+  m_Name: DropVector3List
   m_EditorClassIdentifier: 
   vecor3SOList:
-  - {fileID: 11400000, guid: 267b7d664fa3e744ba13ed8f6e242245, type: 2}
-  - {fileID: 11400000, guid: ba8db503c377fd64e9ef1c50e53bddad, type: 2}
-  - {fileID: 11400000, guid: d1c019d0746fa4e4cbf734b51ce587ae, type: 2}
-  - {fileID: 11400000, guid: d06ce13779778e64caf9f9d66eca7e38, type: 2}
+  - {fileID: 11400000, guid: 2c5e48fb5c4156d4eb5fe42fbe3d4e30, type: 2}
+  - {fileID: 11400000, guid: e12cb95f2cfe05441be08d43b473996e, type: 2}
+  - {fileID: 11400000, guid: e7299a6aad9de174cad4c0387da8282a, type: 2}

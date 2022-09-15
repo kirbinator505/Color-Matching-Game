@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: daa55ab25df40654a86f9fc7929e948b, type: 3}
-  m_Name: High Score
+  m_Script: {fileID: 11500000, guid: 1422327266fc88e44a883c7f6915398e, type: 3}
+  m_Name: Game Over
   m_EditorClassIdentifier: 
-  value: 1
